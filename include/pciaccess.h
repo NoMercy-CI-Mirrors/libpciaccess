@@ -80,6 +80,8 @@ int pci_device_has_kernel_driver(struct pci_device *dev);
 
 int pci_device_is_boot_vga(struct pci_device *dev);
 
+int pci_device_is_boot_display(struct pci_device *dev);
+
 int pci_device_read_rom(struct pci_device *dev, void *buffer);
 
 int  __deprecated pci_device_map_region(struct pci_device *dev,
